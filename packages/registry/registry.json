@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "nq-registry",
+  "homepage": "https://natiq.net",
+  "items": [
+    {
+      "name": "test-block",
+      "type": "registry:block",
+      "title": "Test Block",
+      "files": [{
+        "path": "./components/blocks/TestBlock.tsx",
+        "type": "registry:block"
+      }],
+      "registryDependencies": ["button"]
+    }
+  ]
+}

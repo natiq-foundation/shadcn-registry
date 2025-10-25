@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "test-block",
+  "type": "registry:block",
+  "title": "Test Block",
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "./components/blocks/TestBlock.tsx",
+      "content": "import { Button } from \"@/components/ui/button\";\nimport React from \"react\";\n\nexport default function ThreeButtons() {\n  return (\n    <div>\n      <Button>1</Button>\n      <Button>2</Button>\n      <Button>3</Button>\n    </div>\n  );\n}\n",
+      "type": "registry:block"
+    }
+  ]
+}
